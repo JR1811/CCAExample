@@ -1,0 +1,47 @@
+{
+	"schemaVersion": 1,
+	"id": "ccaexample",
+	"version": "${version}",
+	"name": "CCAExample",
+	"description": "An example mod to showcase Cardinal Components API",
+	"authors": [
+		"DEV - ShiroJR"
+	],
+	"contact": {
+		"homepage": "https://github.com/JR1811/",
+		"sources": "https://github.com/JR1811/ccaexample"
+	},
+	"license": "MIT",
+	"icon": "assets/ccaexample/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.shirojr.ccaexample.CCAExample"
+		],
+		"client": [
+			"net.shirojr.ccaexample.CCAExampleClient"
+		],
+		"fabric-datagen": [
+			"net.shirojr.ccaexample.CCAExampleDataGenerator"
+		],
+		"cardinal-components": [
+			"net.shirojr.ccaexample.CCAExampleComponents"
+		]
+	},
+	"mixins": [
+		"ccaexample.mixins.json"
+	],
+	"custom": {
+		"cardinal-components": [
+			"ccaexample:synced_block_inventory"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"cardinal-components-base": "^6.1.2",
+		"cardinal-components-block": "^6.1.2"
+	}
+}

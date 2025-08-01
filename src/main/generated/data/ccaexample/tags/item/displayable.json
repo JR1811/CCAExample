@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "#c:crops",
+      "required": false
+    },
+    {
+      "id": "#c:armors",
+      "required": false
+    },
+    {
+      "id": "#c:tools/melee_weapon",
+      "required": false
+    },
+    {
+      "id": "#c:tools/ranged_weapon",
+      "required": false
+    }
+  ]
+}
