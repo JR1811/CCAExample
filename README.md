@@ -12,6 +12,8 @@ With CCA the [Block](./src/main/java/net/shirojr/ccaexample/block/ItemHolderBloc
 and [BlockEntity](./src/main/java/net/shirojr/ccaexample/block/entity/ItemHolderBlockEntity.java) classes can stay
 pretty much barebones in terms of boilerplate code.
 
+Example of the Block (Youtube):
+
 [![BlockEntity in Action](https://img.youtube.com/vi/1xTIzWlwzIQ/0.jpg)](https://www.youtube.com/watch?v=1xTIzWlwzIQ)
 
 ## Where To Start?
