@@ -3,12 +3,16 @@
 This mod shows an example of a BlockEntity, which can store 5 ItemStacks at the same time.
 This mod is **not** made by or associated with the CCA developer(s).
 
+![BlockEntity in Action](https://youtu.be/1xTIzWlwzIQ)
+
 The Block Entity Inventory Component is synced to let the ItemStacks be rendered inside the
 [BlockEntityRenderer](src/main/java/net/shirojr/ccaexample/block/client/ItemHolderBlockEntityRenderer.java)
 and ticked on both logical server side (inventory management) and the client side (ItemStack hovering animation).
 With CCA the [Block](./src/main/java/net/shirojr/ccaexample/block/ItemHolderBlock.java)
 and [BlockEntity](./src/main/java/net/shirojr/ccaexample/block/entity/ItemHolderBlockEntity.java) classes can stay
 pretty much barebones in terms of boilerplate code.
+
+[![BlockEntity in Action](https://img.youtube.com/vi/1xTIzWlwzIQ/0.jpg)](https://www.youtube.com/watch?v=1xTIzWlwzIQ)
 
 ## Where To Start?
 
